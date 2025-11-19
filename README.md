@@ -14,8 +14,7 @@ The dataset contains customer-level information, including:
 - Categorical features: `Gender`, `Geography`
 - Target variable: `Exited` (0 = stayed, 1 = churned)
 
-> Note: The dataset used is for demonstration purposes. Original source: [provide source if applicable].
-
+Dataset source: https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers/data
 ---
 
 ## Feature Engineering
@@ -52,4 +51,23 @@ Models were evaluated using:
 - **Feature Importance Visualization**
 
 Example results (Gradient Boosting Tuned):
+          precision    recall  f1-score   support
+       0       0.92      0.86      0.89      1593
+       1       0.56      0.70      0.62       407
+accuracy                           0.83      2000
+macro avg 0.74 0.78 0.76 2000
+weighted avg 0.85 0.83 0.84 2000
+
+**ROC-AUC:** 0.87
+
+---
+
+## Visualizations
+- ROC Curves (Random Forest vs Gradient Boosting)  
+- Feature Importance Plots  
+- Threshold optimization analysis
+
+> All plots are included in the notebook.
+
+
 
