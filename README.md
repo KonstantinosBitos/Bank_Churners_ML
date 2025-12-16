@@ -1,7 +1,7 @@
 # Bank Customer Churn Prediction
 
 ## Overview
-This project predicts whether a bank customer is likely to **exit (churn)** using demographic and financial data. It demonstrates **data preprocessing, feature engineering, machine learning modeling, evaluation, and threshold optimization**. 
+This project predicts whether a bank customer is likely to exit (churn) using demographic and financial data. It demonstrates data preprocessing, feature engineering, machine learning modeling, evaluation, and threshold optimization. 
 
 The main goal is to identify potential churners so that the bank can take proactive retention measures.
 
