@@ -66,7 +66,7 @@ Models were evaluated using:
 - ROC Curves (Random Forest vs Gradient Boosting)  
 - Feature Importance Plots  
 
-> All plots are included in the notebook.
+All plots are included in the notebook.
 
 ---
 
